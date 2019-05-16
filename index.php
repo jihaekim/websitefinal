@@ -4,3 +4,9 @@
 <?php include_once('policy.html') ?>
 <?php include_once('tribeca.html') ?>
 <?php include_once('uws.html') ?>
+
+
+<?php
+    header('Location: home.html');
+
+?>
