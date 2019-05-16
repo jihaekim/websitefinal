@@ -351,9 +351,9 @@ body{
        .desktop-nav {
          display: flex;
          justify-content: space-around;
-         width: 500px;
+         width: 60%;
+         margin-left: 25%;
          margin-top: 3%;
-         margin-left: 47%;
          color: #707070;
          font-size: .96em;
          text-transform: uppercase;
