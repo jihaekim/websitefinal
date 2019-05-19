@@ -25,7 +25,7 @@ body{
    }
    #name{
       text-align: center;
-      font-size: 1.8em;
+      font-size: 1.5em;
       padding-top: 5%;
       padding-bottom: 6%;
       /* box-shadow: 0 4px 2px -2px rgb(211, 208, 208); */
@@ -352,7 +352,7 @@ body{
        .desktop-nav {
          display: flex;
          justify-content: space-around;
-         width: 60%;
+         width: 50%;
          margin-left: 25%;
          margin-top: 3%;
          color: #707070;
