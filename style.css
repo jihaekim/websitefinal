@@ -117,8 +117,10 @@ body{
    .img-div{
      /* width: 355px; */
      /* height: 235px; */
-     margin:0 auto;
+     width: 80%;
+     margin-left: 8%;
      padding-top:10%;
+     padding-bottom:5%;
      /* padding-top:15px; */
    
    }
@@ -199,7 +201,6 @@ body{
      }
  
      .policy-title{
-       padding-bottom: 35px;
        font-size: 1.5em;
        font-family: sans-serif;
        font-weight: bold;
@@ -207,7 +208,7 @@ body{
      }
      
      #policy-list{
-         font-size:1.1em;
+         font-size:1.1em; 
      }
      .list{
          margin-bottom: 0;
@@ -216,7 +217,6 @@ body{
      .small-font{
          margin-top: 0;
          font-size: .9em;
-         margin-bottom: 35px;
      }
  
  p.hours{
@@ -384,7 +384,7 @@ body{
      }
      .info-par {
        line-height: 2;
-       width: 980px;
+       width: 60%;
        margin: 0 auto;
        font-size: 1.4em;
      }
@@ -451,9 +451,9 @@ body{
    font-size:1.5em;
   }
   #policy-list{
-   font-size: 1.7em;
-   width: 650px;
+   width: 50%;
    margin: 0 auto;
+   text-align: justify;
   }
   .policy-img-div{
     height:700px;
