@@ -448,7 +448,7 @@ body{
  .policy-title{
    text-align: center;
    letter-spacing: 3px;
-   font-size:3em;
+   font-size:1.5em;
   }
   #policy-list{
    font-size: 1.7em;
@@ -467,8 +467,9 @@ body{
    padding-top:200px;
  }
  .appt-container{
-   font-size: 1.1em;
+  font-size: .8em;
    font-family: sans-serif;
+   text-align: justify;
  }
  .tri-menu-div{
    display: flex;
