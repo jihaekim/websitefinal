@@ -196,8 +196,9 @@ body{
        padding-top: 50px;
        width: 290px;
        margin: 0 auto;
-       text-align: left;
+       text-align: justify;
        color:#707070;
+
      }
  
      .policy-title{
@@ -304,6 +305,7 @@ body{
  .info-par{
    margin: 0 40px;
    line-height: 2;
+   text-align: justify;
  }
  
  .num-div{
@@ -311,17 +313,19 @@ body{
    text-align: center;
  }
  
- .cancel{
+ #cancel{
    margin-top: 70px;
    padding-bottom: 0;
    margin-bottom: 40px;
+   font-size:1.7em;
  }
  
  .desktop-nav{
    display:none;
  }
  #title-appt{
-   padding-top: 30px;
+  padding-top: 10%;
+  padding-bottom: 7%;
  }
  
  .main-img{
@@ -465,6 +469,8 @@ body{
   }
  #title-appt{
    padding-top:200px;
+   padding-bottom: 3%;
+   font-size: 1.8em;
  }
  .appt-container{
   font-size: .8em;
