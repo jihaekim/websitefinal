@@ -10,6 +10,11 @@ body{
  .cash{
    text-align: center;
  }
+ .menu-title{
+    padding-top: 15%;
+    color: #707070;
+    padding-bottom: 5%;
+ }
    /* logo */
    #salon{
    font-family: 'Lato', sans-serif;
@@ -352,6 +357,9 @@ body{
        border-bottom: none;
        padding-left:2%;
        width: 15%;
+     }
+     .menu-title{
+       padding-bottom:0;
      }
  
        .desktop-nav {
