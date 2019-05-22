@@ -208,7 +208,7 @@ body{
  
      .policy-title{
        font-size: 1.5em;
-    
+       font-family: sans-serif;
        font-weight: bold;
        text-align: center;
      }
@@ -372,6 +372,7 @@ body{
          color: #707070;
          font-size: .96em;
          text-transform: uppercase;
+         font-family: sans-serif;
      }
  
      .topnav-div {
@@ -481,6 +482,7 @@ body{
  }
  .appt-container{
   font-size: .8em;
+   font-family: sans-serif;
    text-align: justify;
  }
  .tri-menu-div{
@@ -488,6 +490,7 @@ body{
    width: 800px;
    justify-content: space-between;
    margin: 0 auto;
+   font-family: sans-serif;
    padding-top:50px;
  }
  #uws-div{
@@ -537,6 +540,7 @@ body{
    width: 650px;
    justify-content: space-between;
    margin: 0 auto;
+   font-family: sans-serif;
    padding-top: 50px;
  }
  #uws-menu-div{
