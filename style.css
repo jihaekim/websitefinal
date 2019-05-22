@@ -347,11 +347,6 @@ body{
  
    /* desktop */
    @media only screen and (min-width: 768px) {
-    body{
-      font-family: "Baskerville", sans-serif;
-      font-weight: lighter;
-       margin:0;
-     }
 
      .navbar-div{
        display:none;
@@ -432,7 +427,6 @@ body{
     .sections{
       display:flex;
       padding-top: 60px;
-      font-family: sans-serif;
     }
     #uws-loc {
      padding-top: 40px;
@@ -513,11 +507,7 @@ body{
    }
  
    @media only screen and (min-width: 600px)and (max-device-width : 768px) {
-    body{
-      font-family: "Baskerville", sans-serif;
-      font-weight: lighter;
-       margin:0;
-     }
+ 
     .desktop-nav{
      margin-left: 11%;
     }
