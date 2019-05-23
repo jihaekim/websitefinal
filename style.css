@@ -4,7 +4,6 @@ body{
      margin:0;
    }
   h3{
-   font-weight: lighter;
 
   }
  .cash{
@@ -487,23 +486,23 @@ body{
  }
  .tri-menu-div{
    display: flex;
-   width: 800px;
-   justify-content: space-between;
+   justify-content: space-evenly;
    margin: 0 auto;
    font-family: sans-serif;
    padding-top:50px;
+   text-align: center;
  }
- #uws-div{
-  margin-left: 23%;
- }
- #tribeca-div{
-   margin-left:23%;
- }
+
  .tri-menu-div h3{
    font-weight: bold;
    padding-top:25px;
    font-size: 1em;
  }
+
+ .t-menu{
+   width:250px;
+ }
+
    }
  
    @media only screen and (min-width: 600px)and (max-device-width : 768px) {
@@ -542,8 +541,6 @@ body{
    margin: 0 auto;
    font-family: sans-serif;
    padding-top: 50px;
- }
- #uws-menu-div{
-   margin-left: 250px;
+   text-align: center;
  }
    } 
