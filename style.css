@@ -3,9 +3,14 @@ body{
     font-weight: lighter;
      margin:0;
    }
-  h3{
+ .nav-pic{
+  width: 130px;
+  margin:5% auto;
 
-  }
+ }
+ .nav-img{
+   width:100%;
+ }
  .cash{
    text-align: center;
  }
@@ -335,6 +340,9 @@ body{
  .main-img{
  padding-top:0;
  }
+ .topnav-div{
+  border-bottom: 1px solid #ece7e7;
+ }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
  .footer{
    height:500px;
@@ -346,6 +354,12 @@ body{
  
    /* desktop */
    @media only screen and (min-width: 768px) {
+    .nav-pic{
+      width: 140px;
+      margin-top: 2%;
+      margin-left: 3%;
+      margin-bottom: 2%;
+     }
 
      .navbar-div{
        display:none;
@@ -365,14 +379,16 @@ body{
        .desktop-nav {
          display: flex;
          justify-content: space-around;
-         width: 50%;
-         margin-left: 25%;
+         width: 60%;
+         margin-left: 20%;
          margin-top: 3%;
          color: #707070;
          font-size: .96em;
          text-transform: uppercase;
          font-family: sans-serif;
      }
+
+     .pointer {cursor: pointer;}
  
      .topnav-div {
        display: flex;
@@ -506,9 +522,11 @@ body{
    }
  
    @media only screen and (min-width: 600px)and (max-device-width : 768px) {
- 
+    .nav-pic {
+      margin-right: 15%;
+  }
     .desktop-nav{
-     margin-left: 11%;
+     margin-left:0;
     }
     .appt-info{
      flex-shrink: 3;
