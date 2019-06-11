@@ -3,6 +3,12 @@ body{
     font-weight: lighter;
      margin:0;
    }
+   
+
+   .home-description{
+    font-size: .99em;
+   }
+
  .nav-pic{
   width: 130px;
   margin:5% auto;
@@ -143,6 +149,10 @@ body{
      margin-left: 40px;
      margin-bottom: 0;
    }
+
+   #loc-title{
+     text-align:center;
+   }
    
    .info-div{
      padding: 10%;
@@ -270,8 +280,9 @@ body{
  }
  
  .appt-info{
-   margin:40px;
-   color:#707070;
+  margin: 12%;
+  color: #707070;
+
  }
  
  .appt-info p{
@@ -320,13 +331,12 @@ body{
  .num-div{
    margin-top: 30px;
    text-align: center;
+   font-size: .85em;
  }
  
  #cancel{
    margin-top: 70px;
    padding-bottom: 0;
-   margin-bottom: 40px;
-   font-size:1.7em;
  }
  
  .desktop-nav{
@@ -334,7 +344,7 @@ body{
  }
  #title-appt{
   padding-top: 10%;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
  }
  
  .main-img{
@@ -351,19 +361,69 @@ body{
    height: 430px;
  }
    }
- 
+
+
+
+
+   @media only screen and (min-width: 1000px) {
+   .desktop-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    color: #707070;
+    font-size: .96em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.navbar-div{
+  display:none;
+}
+.nav-pic{
+  width: 140px;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+ }
+
+
+ #name {
+   padding-top: 2%;
+   padding-bottom: 2%;
+   text-align: left;
+   border-bottom: none;
+   padding-left:2%;
+   width: 15%;
+ }
+ .menu-title{
+   padding-bottom:0;
+ }
+
+ .pointer {cursor: pointer;}
+
+ .topnav-div {
+   display: flex;
+   border-bottom: 1px solid #ece7e7;
+   background: white;
+   position: fixed;
+   width: 100%;
+}
+#title-appt{
+  padding-top:200px;
+}
+
+}
    /* desktop */
    @media only screen and (min-width: 768px) {
-    .nav-pic{
+    /* .nav-pic{
       width: 140px;
       margin-top: 2%;
       margin-left: 3%;
       margin-bottom: 2%;
      }
 
-     .navbar-div{
-       display:none;
-     }
+
      #name {
        padding-top: 2%;
        padding-bottom: 2%;
@@ -375,18 +435,6 @@ body{
      .menu-title{
        padding-bottom:0;
      }
- 
-       .desktop-nav {
-         display: flex;
-         justify-content: space-around;
-         width: 60%;
-         margin-left: 20%;
-         margin-top: 3%;
-         color: #707070;
-         font-size: .96em;
-         text-transform: uppercase;
-         font-family: sans-serif;
-     }
 
      .pointer {cursor: pointer;}
  
@@ -396,6 +444,9 @@ body{
        background: white;
        position: fixed;
        width: 100%;
+   } */
+   .num-div{
+    font-size: .85em;
    }
      .img-div{
        height: UNSET;
@@ -423,12 +474,12 @@ body{
      .num-div {
        margin-top: 80px;
        text-align: center;
+       font-size: 1.1em;
    }
      .appt-img{
-       height: 500px;
-       width: 500px;
-       margin-left: 5%;
-       padding-top: 40px;
+       height: 41%;
+       width: 41%;
+       margin-left: 6%;
      }
      .appt-title{
        padding-top: 40px;
@@ -436,8 +487,9 @@ body{
      .appt-info{
        color: #707070;
        flex-shrink: 100;
-       margin-right: 150px;
-       margin-left: 60px;
+       margin-right: 10%;
+       margin-left: 5%;
+       margin-top:3%;
      }
     .sections{
       display:flex;
@@ -474,8 +526,7 @@ body{
  }
  .policy-title{
    text-align: center;
-   letter-spacing: 3px;
-   font-size:1.5em;
+   font-size:1.9em;
   }
   #policy-list{
    width: 50%;
@@ -491,12 +542,11 @@ body{
    height: 100%;
   }
  #title-appt{
-   padding-top:200px;
    padding-bottom: 3%;
    font-size: 1.8em;
  }
  .appt-container{
-  font-size: .8em;
+  font-size: .7em;
    font-family: sans-serif;
    text-align: justify;
  }
@@ -522,9 +572,7 @@ body{
    }
  
    @media only screen and (min-width: 600px)and (max-device-width : 768px) {
-    .nav-pic {
-      margin-right: 15%;
-  }
+ 
     .desktop-nav{
      margin-left:0;
     }
@@ -533,7 +581,9 @@ body{
      margin-right: 30px;
     }
     .appt-img {
-     height: 400px;
+      height: 350px;
+      width: 500px;
+  
     }
     #location-div{
      padding-left: 30px;
