@@ -47,7 +47,7 @@ body{
      padding: 11px 0 0 9px;
      tap-highlight-color: transparent;
    }
-   span {
+   .spanmenu {
      display: block;
      width: 16px;
      height: 2px;
@@ -55,13 +55,13 @@ body{
      transition: .7s;
      pointer-events: none;
    }
-   span:nth-child(2) {
+   .spanmenu:nth-child(2) {
      margin: 3px 0;
    }
    .open {
      border-color: rgba(255,255,255,.2);
    }
-   .open span {
+   .open .spanmenu {
      background:black;
    }
    .open :first-child {
