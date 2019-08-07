@@ -62,7 +62,7 @@ body{
      padding: 11px 0 0 9px;
      tap-highlight-color: transparent;
    }
-   span {
+   .spanmenu {
      display: block;
      width: 16px;
      height: 2px;
@@ -70,13 +70,17 @@ body{
      transition: .7s;
      pointer-events: none;
    }
-   span:nth-child(2) {
+   /* span:nth-child(2) {
      margin: 3px 0;
-   }
+   } */
+
+   .spanmenu:nth-child(2) {
+    margin: 3px 0;
+  }
    .open {
      border-color: rgba(255,255,255,.2);
    }
-   .open span {
+   .open .spanmenu {
      background:black;
    }
    .open :first-child {
@@ -191,6 +195,7 @@ body{
  .tri-menu-div{
    color:#707070;
    margin: 30px;
+   margin-left:10%;
  }
  
  
@@ -215,7 +220,7 @@ body{
        padding-top: 50px;
        width: 290px;
        margin: 0 auto;
-       text-align: justify;
+       text-align: center;
        color:#707070;
 
      }
@@ -323,9 +328,9 @@ body{
    height:100%;
  }
  .info-par{
-   margin: 0 40px;
+   margin: 0 30px;
    line-height: 2;
-   text-align: justify;
+   text-align: center;
  }
  
  .num-div{
@@ -337,6 +342,7 @@ body{
  #cancel{
    margin-top: 70px;
    padding-bottom: 0;
+   font-size:2em;
  }
  
  .desktop-nav{
@@ -366,6 +372,8 @@ body{
 
 
    @media only screen and (min-width: 1000px) {
+  
+  
    .desktop-nav {
     display: flex;
     justify-content: space-around;
@@ -412,10 +420,15 @@ body{
 #title-appt{
   padding-top:200px;
 }
-
 }
    /* desktop */
    @media only screen and (min-width: 768px) {
+    .menusection{
+      display:flex;
+      width:80%;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
     /* .nav-pic{
       width: 140px;
       margin-top: 2%;
@@ -543,7 +556,7 @@ body{
   }
  #title-appt{
    padding-bottom: 3%;
-   font-size: 1.8em;
+   font-size: 2em;
  }
  .appt-container{
   font-size: .7em;
@@ -555,7 +568,6 @@ body{
    justify-content: space-evenly;
    margin: 0 auto;
    font-family: sans-serif;
-   padding-top:50px;
    text-align: center;
  }
 
@@ -572,7 +584,7 @@ body{
    }
  
    @media only screen and (min-width: 600px)and (max-device-width : 768px) {
- 
+
     .desktop-nav{
      margin-left:0;
     }
@@ -612,3 +624,43 @@ body{
    text-align: center;
  }
    } 
+/* menu css */
+/* .productList {
+    width: 40%;
+} */
+
+/* .product .name {
+    font-weight: bold;
+} */
+.product .price {
+    float: right;
+}
+.menusection{
+  /* display:flex; */
+  width:80%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 680px){
+  .productList {
+    width: 40%;
+}
+  .menusection{
+    display:flex; 
+    width:80%;
+    justify-content: space-between;
+    margin:0 auto;
+    margin-top: 5%;
+  }
+}
+
+.menusection{
+  color: #707070;
+  font-size: .95em;
+}
+
+
+.cash{
+  margin-top:5%;
+}
